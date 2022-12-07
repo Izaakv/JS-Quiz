@@ -1,0 +1,66 @@
+ body {
+    background-color: aqua;
+ }
+ 
+ h1 {
+    text-align: center;
+    padding-top: 0.5em;
+  }
+  h2 {
+    padding-top: 0.5em;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  table {
+    border-collapse: inherit;
+  }
+  .container {
+    margin-top: 5em;
+    width: 50%;
+  }
+  .badge {
+    margin: 0.5em;
+  }
+  .table {
+    max-width: 50%;
+  }
+  
+  #highscore {
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+  #start-div {
+    justify-content: center;
+    background-color: lightgray;
+  }
+  #questions-div {
+    justify-content: center;
+    background-color: lightgray;
+  }
+  #results-div {
+    justify-content: center;
+  }
+  #game-over-form {
+    justify-content: center;
+    text-align: center;
+    background-color: lightgray;
+  }
+  #highscore-div {
+    background-color: lightgray;
+    justify-content: center;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px){
+      .container {
+          width: 75%;
+        }
+  }
+  
+  @media screen and (max-width: 480px){
+      .container {
+          width: 100%;
+        }
+  }
